@@ -2,8 +2,8 @@ var http = require("http");
 var server = http.createServer(function(request,response){
     if(request.url === "/"){
         response.writeHead(200, {'Content-Type': 'text/html'});
-        response.write("<h1 style='color:blue;'>Sivun H1 otsikko</h1>");
-        response.write("<h2>Taulukko</h2>");
+        response.write("<h1 style='color:blue;'>Sivun H1 otsikko muutettu testiä varten</h1>");
+        
         response.write("<table>");
         response.write("<tr>");
         response.write("<th style='text-align:left';>Name</th>");

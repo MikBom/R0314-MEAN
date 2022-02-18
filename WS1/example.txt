@@ -1,0 +1,4 @@
+Tervetuloa Full Stack kurssille.
+Tällä kertaa luetaan, kirjoitetaan ja poistetaan tiedostoja
+
+Hauskaa koodaamista!
